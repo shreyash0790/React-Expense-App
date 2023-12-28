@@ -26,7 +26,7 @@ function Expenses(){
       ];
 
       return (
-     
+         
         <Card className='expenses'>
         {expenses.map((expense) => (
           <ExpenseItem
